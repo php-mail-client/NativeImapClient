@@ -1,0 +1,24 @@
+{
+	"name": "php-mail-client/native-imap-client",
+	"description": "Native IMAP4 protocol implementation. This is part of PHP Mail Client project.",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Tomáš Blatný",
+			"email": "blatny.tomas@seznam.cz",
+			"homepage": "https://github.com/greeny"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"PhpMailClient\\NativeImapClient": "src/"
+		}
+	},
+	"require": {
+		"php": ">= 5.4.0",
+		"php-mail-client/client": "@dev"
+	},
+	"require-dev": {
+		"nette/tester": "@dev"
+	}
+}
